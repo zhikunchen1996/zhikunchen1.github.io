@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: <a href="mailto:zhikun.chen1996@gmail.com">
+    url: zhikun.chen1996@gmail.com
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/zhikun-chen-27b214145/
