@@ -27,7 +27,7 @@ sections:
           filename: Weixin Image_20240803183211.jpg
           filters:
            brightness: 1
-           Opacity: 0.3
+           Opacity: 0.1
           size: cover
           position: center
           parallax: false
