@@ -15,31 +15,30 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      #button:
-        #text: Download CV
-        #url: uploads/resume.pdf
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
-       color: black
-       image:
-          #Add your image background to `assets/media/`.
-          filename: Weixin Image_20240803183211.jpg
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: stacked-peaks.svg
           filters:
-           brightness: 1
-           opacity: 0.2
+            brightness: 1.0
           size: cover
           position: center
           parallax: false
   - block: markdown
     content:
-      title: 'My Research'
+      title: '📚 My Research'
       subtitle: ''
       text: |-
-        My reseach intreast include the investigation into the environmental fates of microplastics in cold regions. I used labrotory batch test and field samplings to investigate the entrainment of microplastics in the seasonal ice and the effec of freezing on the microplastic behaviour upon relsease. 
+        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-         I am currently developing engineering solutions for the removal of microplastics from water, separating them from water at low energy and cost.
-       
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        
         Please reach out to collaborate 😃
     design:
       columns: '1'
