@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      #text: ""
+      text: ""
       # Show a call-to-action button under your biography? (optional)
       #button:
         #text: Download CV
@@ -26,7 +26,7 @@ sections:
           #Add your image background to `assets/media/`.
           filename: Weixin Image_20240803183211.jpg
           filters:
-           brightness: 1.5
+           brightness: 1
            opacity: 0.2
           size: cover
           position: center
