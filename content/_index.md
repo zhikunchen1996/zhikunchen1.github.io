@@ -19,7 +19,7 @@ sections:
         #text: Download CV
         #url: uploads/resume.pdf
     design:
-      css_class: dark
+      css_class: light
       background:
         color: white
         image:
@@ -35,10 +35,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My reseach intreast include the investigation into the environmental fates of microplastics in cold regions. I used labrotory batch test and field samplings to investigate the entrainment of microplastics in the seasonal ice and the effec of freezing on the microplastic behaviour upon relsease.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
+        I am currently developing engineering solutions for the removal of microplastics from water, separating them from water at low energy and cost.
+
         Please reach out to collaborate 😃
     design:
       columns: '1'
