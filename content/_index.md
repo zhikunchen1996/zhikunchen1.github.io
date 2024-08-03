@@ -21,7 +21,7 @@ sections:
     design:
      # css_class: dark
       background:
-       color: black
+       color: white
        image:
           #Add your image background to `assets/media/`.
           filename: Weixin Image_20240803183211.jpg
