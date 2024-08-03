@@ -40,11 +40,11 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {2024} Me. This work is licensed under {license}'
+    notice: '© {2024} Zhikun Chen.'
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
