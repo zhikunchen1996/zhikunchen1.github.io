@@ -32,12 +32,12 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: ''
       text: |-
-        My reseach intreast include the investigation into the environmental fates of microplastics in cold regions. I used labrotory batch test and field samplings to investigate the entrainment of microplastics in the seasonal ice and the effec of freezing on the microplastic behaviour upon relsease.
+        My research interests include investigating the environmental fate of microplastics in cold regions. I use laboratory batch tests and field sampling to study the entrainment of microplastics in seasonal ice and the effects of freezing on microplastic behavior upon release.
 
-        I am currently developing engineering solutions for the removal of microplastics from water, separating them from water at low energy and cost.
+        I am currently developing engineering solutions to remove microplastics from water, focusing on low-energy and cost-effective methods for separation.
 
         Please reach out to collaborate 😃
     design:
