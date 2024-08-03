@@ -21,13 +21,13 @@ sections:
     design:
       css_class: dark
       background:
-       color: white
+       color: black
        image:
           #Add your image background to `assets/media/`.
           filename: Weixin Image_20240803183211.jpg
           filters:
-           brightness: 1
-           Opacity: 0.1
+           brightness: 1.5
+           opacity: 0.2
           size: cover
           position: center
           parallax: false
