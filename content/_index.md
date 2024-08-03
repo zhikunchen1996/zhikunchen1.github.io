@@ -19,7 +19,7 @@ sections:
         #text: Download CV
         #url: uploads/resume.pdf
     design:
-     # css_class: dark
+      css_class: dark
       background:
        color: white
        image:
@@ -33,7 +33,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: ''
       text: |-
         My reseach intreast include the investigation into the environmental fates of microplastics in cold regions. I used labrotory batch test and field samplings to investigate the entrainment of microplastics in the seasonal ice and the effec of freezing on the microplastic behaviour upon relsease. 
