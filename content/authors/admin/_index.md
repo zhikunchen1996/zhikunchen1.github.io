@@ -3,7 +3,7 @@
 title: Zhikun Chen
 
 # Name pronunciation (optional)
-name_pronunciation: 陈智昆
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Zhikun
@@ -11,7 +11,7 @@ last_name: Chen
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,21 +24,21 @@ role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: Conordia University
     url: https://concordia.ca/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: zhikun.chen1996@gmail.com
+    url: <a href="mailto:zhikun.chen1996@gmail.com">
     label: E-mail Me
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/zhikun-chen-27b214145/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.ca/citations?user=hBcMkAoAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/my-orcid?orcid=0009-0001-5158-462X
 
 interests:
   - Transport of microplastics in cold regions
@@ -123,7 +123,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: POWERLIFTING
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -138,11 +138,10 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 80
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
