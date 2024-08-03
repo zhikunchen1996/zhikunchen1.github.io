@@ -26,7 +26,7 @@ sections:
           #Add your image background to `assets/media/`.
           filename: Weixin Image_20240803183211.jpg
           filters:
-           brightness: 1.0
+           brightness: 0.3
           size: cover
           position: center
           parallax: false
