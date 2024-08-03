@@ -20,11 +20,11 @@ sections:
         #url: uploads/resume.pdf
     design:
      # css_class: dark
-      #background:
-       #color: black
+      background:
+       color: black
        image:
           #Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: L1007381.JPG
           filters:
            brightness: 1.0
           size: cover
