@@ -3,15 +3,15 @@
 title: Zhikun Chen
 
 # Name pronunciation (optional)
-name_pronunciation: 
+#name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Zhikun
 last_name: Chen
 
 # Status emoji
-status:
-  icon: 
+#status:
+ # icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -52,32 +52,27 @@ education:
     date_start: 2020-09-01
     date_end: 2024-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      Thesis on tranpsport of microplastics in cold regions and remediation technologies. Supervised by Dr. Chunjiang An (https://anlab.ca/). Published 28 peer-reviewed articles with 12 as the first author in top journals such as Environmental Science & Technology, ACS ES&T Water, Chemical Engineering Journal, and Journal of Hazardous Materials (H-index: 14).
+    #button:
+      #text: 'Read Thesis'
+      #url: 'https://example.com'
   - area: MASc Civil Engineering
     institution: Concordia University
     date_start: 2018-09-01
     date_end: 2020-09-01
     summary: |
       GPA: 3.8/4.3
+      The F. A. Gerard Prize: Merited to the most deserving graduate
+      NAGS Master’s Thesis Awards
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
   - area: BEng Civil Engineering
     institution: University of Liverpool/Xi'an Jiaotong-Liverpool University
     date_start: 2014-09-01
     date_end: 2018-07-31
     summary: |
       First Class Honours
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
