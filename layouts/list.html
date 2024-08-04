@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ $pagination_limit := .Params.pagination_limit | default 10 }}  <!-- Use the pagination limit parameter or default to 10 -->
+  {{ $paginator := .Paginate (where .Pages "Type" "publication") $pagination_limit }}
+
+  {{ range $paginator.Pages }}
+    <!-- Your code to display each publication item -->
+    <div class="publication">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Summary }}</p>
+    </div>
+  {{ end }}
+
+  <!-- Pagination controls (if needed) -->
+  {{ if gt $paginator.TotalPages 1 }}
+    <nav>
+      <ul class="pagination">
+        {{ if $paginator.HasPrev }}
+          <li><a href="{{ $paginator.PrevURL }}">Previous</a></li>
+        {{ end }}
+        {{ range $paginator.Pagers }}
+          <li class="{{ if eq . $paginator }}active{{ end }}">
+            <a href="{{ .URL }}">{{ .PageNumber }}</a>
+          </li>
+        {{ end }}
+        {{ if $paginator.HasNext }}
+          <li><a href="{{ $paginator.NextURL }}">Next</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  {{ end }}
+{{ end }}
