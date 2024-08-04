@@ -143,23 +143,45 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: AquaHacking Great Lakes Challenges 2023-2024 Finalist – Team Maxinano
+    url: https://aquaaction.org/aquahacking-great-lakes-2023-24
+    date: '2024-03-01'
+    awarder: AquaAction
+    icon: AquaAction
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      We developed a electrochemical method to sperate the microplatics from the water.
+  - title: Relève Etoile Louis-Berlinguet Award (Fonds de recherche du Québec) 
+    url: https://frq.gouv.qc.ca/histoire-et-rapport/releve-etoile-louis-berlinguet-fevrier-2024/
+    date: '2023-11-01'
+    awarder: Fonds de recherche du Québec
+    icon: Fonds de recherche du Québec
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      Award-winning publication : Entrainment and Enrichment of Microplastics in Ice Formation Processes: Implications for the Transport of Microplastics in Cold Regions
+
+  - title: People 2023 International Conference Best Presentation Award (2nd place)
+    url: https://www.people-network.ca/index.php/people-2023/
+    date: '2023-08-01'
+    awarder: People Network
+    icon: People Network
+    summary: |
+      Awarded for the prensentation titled "Entrainment of Microplastics in Ice: Implications for the Transport of Microplastics in Northern Regions"
+
+  - title: Special Recognition Award, International Oil Spill Science Conference (IOSSC) 2022
+    url: https://sites.events.concordia.ca/sites/mpri/en/international-oil-spill-science-conference-2022/home
+    date: '2022-10-01'
+    awarder: People Network
+    icon: People Network
+    summary: |
+      Awarded for outstanding work in the Conference Organizing Committee
+
+  - title: Mitacs Accelerate Fellowship
+    url: https://www.mitacs.ca/our-projects/advancing-sustainable-management-of-construction-renovation-and-demolition-crd-waste/v
+    date: '2021-03-01'
+    awarder: Mitacs
+    icon: Mitacs
+    summary: |
+      Advancing sustainable management of construction, renovation, and demolition (CRD) waste in Montreal West
+
   - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
