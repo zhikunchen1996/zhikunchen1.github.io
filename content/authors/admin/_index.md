@@ -178,7 +178,6 @@ awards:
     url: https://www.mitacs.ca/our-projects/advancing-sustainable-management-of-construction-renovation-and-demolition-crd-waste/v
     date: '2021-03-01'
     awarder: Mitacs
-    icon: Mitacs
     summary: |
       Advancing sustainable management of construction, renovation, and demolition (CRD) waste in Montreal West
 
