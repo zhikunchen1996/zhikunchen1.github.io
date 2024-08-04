@@ -2,7 +2,7 @@
 title: 'Seasonal ice encapsulation: the pivotal influence on microplastic transport
   and fate in cold regions'
 authors:
-- Zhikun Chen
+- Admin
 - Maria Elektorowicz
 - Chunjiang An
 - Xuelin Tian

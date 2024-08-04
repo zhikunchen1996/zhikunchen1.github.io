@@ -2,7 +2,7 @@
 title: Revealing the Freezing-Induced Alteration in Microplastic Behavior and Its
   Implication for the Microplastics Released from Seasonal Ice
 authors:
-- Zhikun Chen
+- Admin
 - Maria Elektorowicz
 - Chunjiang An
 - Xuelin Tian
