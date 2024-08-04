@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: Spatiotemporal analysis of land use pattern and stream water quality in southern
   Alberta, Canada
 authors:
@@ -13,5 +14,7 @@ publishDate: '2024-08-04T18:55:32.917337Z'
 publication_types:
 - article-journal
 publication: '*Journal of Contaminant Hydrology*'
+volume: '1'
+issue: '2'
 doi: https://doi.org/10.1016/j.jconhyd.2021.103852
 ---
