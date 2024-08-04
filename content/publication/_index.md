@@ -3,10 +3,8 @@ title: Publications
 cms_exclude: true
 
 # View.
-view: 
-  name: citation
-  pagination:
-    limit: 1000  # Set this number to a value larger than the total number of items you have
+view: citation
+pagination_limit: '1000'  # Add a custom parameter for pagination limit
 
 
 # Optional header image (relative to `static/media/` folder).
