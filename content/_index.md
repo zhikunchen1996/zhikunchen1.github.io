@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2024-08-04
 type: landing
 
 design:
@@ -39,7 +39,7 @@ sections:
 
         I am currently developing engineering solutions to remove microplastics from water, focusing on low-energy and cost-effective methods for separation.
 
-        Please reach out to collaborate 😃
+        Please reach out to collaborate.
     design:
       columns: '1'
   - block: collection
