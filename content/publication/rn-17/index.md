@@ -2,7 +2,7 @@
 title: A green initiative for oiled sand cleanup using chitosan/rhamnolipid complex
   dispersion with pH-stimulus response
 authors:
-- Zhikun Chen
+- Admin
 - Chunjiang An
 - Yixiang Wang
 - Baiyu Zhang

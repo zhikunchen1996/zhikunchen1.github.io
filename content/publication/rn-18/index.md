@@ -2,7 +2,7 @@
 title: 'Sources, behaviors, transformations, and environmental risks of organophosphate
   esters in the coastal environment: A review'
 authors:
-- Zhikun Chen
+- Admin
 - Chunjiang An
 - Maria Elektorowicz
 - Xuelin Tian

@@ -2,7 +2,7 @@
 title: Inexact inventory-theory-based optimization of oily waste management system
   in shoreline spill response
 authors:
-- Zhikun Chen
+- Admin
 - Chunjiang An
 - Xiujuan Chen
 - Elliott Taylor

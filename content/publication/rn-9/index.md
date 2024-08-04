@@ -4,7 +4,7 @@ title: 'The role of clean energy in achieving decarbonization of electricity gen
 authors:
 - Xuelin Tian
 - Chunjiang An
-- Zhikun Chen
+- Admin
 date: '2023-01-01'
 publishDate: '2024-08-04T18:55:32.989364Z'
 publication_types:

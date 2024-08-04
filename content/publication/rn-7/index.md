@@ -3,7 +3,7 @@ title: Improving solid waste management in remote First Nations communities thro
   inventory-theory-based optimization
 authors:
 - Ziyu Wang
-- Zhikun Chen
+- Admin
 - Chunjiang An
 date: '2023-01-01'
 publishDate: '2024-08-04T18:55:33.026991Z'

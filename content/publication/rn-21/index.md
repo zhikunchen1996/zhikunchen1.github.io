@@ -3,7 +3,7 @@ title: 'Quantifying construction waste reduction through the application of pref
   a case study in Anhui, China'
 authors:
 - Jianli Hao
-- Zhikun Chen
+- Admin
 - Zihan Zhang
 - Gisela Loehlein
 date: '2021-01-01'

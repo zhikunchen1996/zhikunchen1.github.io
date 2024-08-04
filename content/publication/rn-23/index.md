@@ -2,7 +2,7 @@
 title: Spatiotemporal analysis of land use pattern and stream water quality in southern
   Alberta, Canada
 authors:
-- Zhikun Chen
+- Admin
 - Chunjiang An
 - Qian Tan
 - Xuelin Tian

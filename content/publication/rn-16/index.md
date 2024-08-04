@@ -2,7 +2,7 @@
 title: 'Construction, renovation, and demolition waste in landfill: a review of waste
   characteristics, environmental impacts, and mitigation measures'
 authors:
-- Zhikun Chen
+- Admin
 - Qi Feng
 - Rengyu Yue
 - Zhi Chen

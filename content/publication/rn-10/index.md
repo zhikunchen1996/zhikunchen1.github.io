@@ -4,7 +4,7 @@ title: 'Promoting cross-regional integration of maritime emission management: A 
 authors:
 - He Peng
 - Chunjiang An
-- Zhikun Chen
+- Admin
 - Xuelin Tian
 - Yao Sun
 date: '2023-01-01'

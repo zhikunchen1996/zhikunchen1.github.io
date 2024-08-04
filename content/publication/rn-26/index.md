@@ -4,7 +4,7 @@ title: Comparative study of construction and demolition waste management in Chin
 authors:
 - Jianli Hao
 - Francesco Di Maria
-- Zhikun Chen
+- Admin
 - Shiwang Yu
 - Wenting Ma
 - Luigi Di Sarno

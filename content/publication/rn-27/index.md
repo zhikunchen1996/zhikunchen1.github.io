@@ -2,7 +2,7 @@
 title: 'Assessment of regional greenhouse gas emission from beef cattle production:
   a case study of Saskatchewan in Canada'
 authors:
-- Zhikun Chen
+- Admin
 - Chunjiang An
 - Hanxiao Fang
 - Yunlu Zhang

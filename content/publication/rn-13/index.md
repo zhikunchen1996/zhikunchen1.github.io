@@ -6,7 +6,7 @@ authors:
 - Chunjiang An
 - Zhibin Ye
 - Huifang Bi
-- Zhikun Chen
+- Admin
 - Xudong Liu
 - Ximeng Zhang
 - Kenneth Lee

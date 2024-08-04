@@ -4,7 +4,7 @@ title: 'Assessing the impact of urban form on the greenhouse gas emissions from 
 authors:
 - Xuelin Tian
 - Chunjiang An
-- Zhikun Chen
+- Admin
 date: '2020-01-01'
 publishDate: '2024-08-04T18:55:32.983488Z'
 publication_types:

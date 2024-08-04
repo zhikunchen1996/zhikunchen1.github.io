@@ -2,7 +2,7 @@
 title: 'Entrainment and enrichment of microplastics in ice formation processes: Implications
   for the transport of microplastics in cold regions'
 authors:
-- ZhiKun Chen
+- Admin
 - Maria Elektorowicz
 - Chunjiang An
 - Xuelin Tian

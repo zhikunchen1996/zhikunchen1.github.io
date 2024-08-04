@@ -2,7 +2,7 @@
 title: Exploring the use of cellulose nanocrystal as surface-washing agent for oiled
   shoreline cleanup
 authors:
-- Zhikun Chen
+- Admin
 - Chunjiang An
 - Jianan Yin
 - Edward Owens
