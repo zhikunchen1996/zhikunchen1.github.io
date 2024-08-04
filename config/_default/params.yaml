@@ -41,11 +41,7 @@ header:
 footer:
   copyright:
     notice: '© {2024} Zhikun Chen.'
-    license:
-      enable: true
-      allow_derivatives: true
-      share_alike: true
-      allow_commercial: true
+
 
 # Localization
 locale:
