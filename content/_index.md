@@ -86,12 +86,12 @@ sections:
      # offset: 0
       # Page order: descending (desc) or ascending (asc) date.
      # order: desc
-    design:
+    #design:
       # Choose a layout view
-      view: date-title-summary
+      #view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+     # spacing:
+       # padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
