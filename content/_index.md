@@ -64,7 +64,7 @@ sections:
     design:
       view: citation
   - block: collection
-    id: awards
+    id: experience
     content:
       title: Recent News
      # subtitle: ''
