@@ -25,7 +25,7 @@ tags:
 - polar regions
 - seasonal ice
 
-featured: True
+featured: true
 
 
 # Featured image
