@@ -63,8 +63,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: awards
+  - #block: collection
+    #id: awards
     #content:
      # title: Recent News
      # subtitle: ''
