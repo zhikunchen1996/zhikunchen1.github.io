@@ -18,16 +18,19 @@ tags:
   - Awards
 ---
 
-##🎉 Exciting News! 🎉
+## 🎉 Exciting News! 🎉
 
 I am thrilled to announce that my recently published article has been awarded a prestigious scholarship, Relève étoile Louis-Berlinguet Févrierthe by Fonds de recherche du Québec!
+
 Award-Winning Publication:
-**Entrainment and Enrichment of Microplastics in Ice Formation Processes: Implications for the Transport of Microplastics in Cold Regions
-DOI: https://doi.org/10.1021/acs.est.2c09340
 
-**Published in: ACS Publications
+**Entrainment and Enrichment of Microplastics in Ice Formation Processes: Implications for the Transport of Microplastics in Cold Regions**
 
-**Summary:
+**DOI: https://doi.org/10.1021/acs.est.2c09340**
+
+**Published in: ACS Publications**
+
+**Summary:**
 In recent years, the term “microplastics” has gained significant attention. These tiny plastic particles, some invisible to the naked eye, have been found everywhere—from the depths of our oceans to the tops of mountains. But what happens to these particles in cold, icy regions like Quebec?
 
 Our study delves into this question, especially given the high levels of microplastics found in Arctic ice samples. We discovered that sea ice formation can trap microplastics much like a spider web catches insects. However, when the ice melts due to seasonal changes or rising global temperatures, these trapped plastics could be released back into the water.
