@@ -27,6 +27,9 @@ tags:
 - seasonal ice
 
 featured: True
+links:
+- name: DOI
+  url: https://doi.org/10.1021/acs.est.4c05322
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
