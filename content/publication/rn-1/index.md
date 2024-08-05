@@ -14,5 +14,8 @@ publishDate: '2024-08-04T18:55:33.044740Z'
 publication_types:
 - article-journal
 publication: '*Journal of Hazardous Materials*'
-doi: https://doi.org/10.1016/j.scs.2024.105660
+doi: 10.1016/j.scs.2024.105660
+
+#   url: ""
+url_pdf: https://doi.org/10.1016/j.scs.2024.105660
 ---
