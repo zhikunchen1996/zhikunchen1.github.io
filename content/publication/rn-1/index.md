@@ -16,6 +16,4 @@ publication_types:
 publication: '*Journal of Hazardous Materials*'
 doi: 10.1016/j.scs.2024.105660
 
-#   url: ""
-url_pdf: https://doi.org/10.1016/j.scs.2024.105660
 ---
