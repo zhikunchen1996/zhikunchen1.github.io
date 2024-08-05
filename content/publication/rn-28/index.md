@@ -27,7 +27,7 @@ tags:
 - Surface-washing agent
 - Shoreline oiling
 
-featured: True
+featured: true
 
   
 # Featured image
