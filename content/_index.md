@@ -67,12 +67,6 @@ sections:
     content:
       title: Awards
       username: admin
-    design:
-       Choose a layout view
-       view: date-title-summary
-       Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   #- block: collection
     #id: awards
     #content:
