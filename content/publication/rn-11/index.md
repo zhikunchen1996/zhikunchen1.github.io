@@ -7,7 +7,7 @@ authors:
 - Chunjiang An
 - Xuelin Tian
 - He Peng
-date: '2023-01-01'
+date: '2023-12-19'
 publishDate: '2024-08-04T18:55:32.947446Z'
 publication_types:
 - article-journal
@@ -26,10 +26,8 @@ tags:
 - seasonal ice
 
 featured: True
-links:
-- name: DOI
-  url: https://doi.org/10.1021/acsestwater.3c00579
-  
+
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

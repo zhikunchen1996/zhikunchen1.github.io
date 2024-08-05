@@ -6,7 +6,7 @@ authors:
 - Maria Elektorowicz
 - Chunjiang An
 - Xuelin Tian
-date: '2023-01-01'
+date: '2023-02-13'
 publishDate: '2024-08-04T18:55:32.935323Z'
 publication_types:
 - article-journal
@@ -25,9 +25,7 @@ tags:
 - turbulence
 
 featured: True
-links:
-- name: DOI
-  url: https://doi.org/10.1021/acs.est.2c09340
+
   
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

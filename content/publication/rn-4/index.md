@@ -9,7 +9,7 @@ authors:
 - Zheng Wang
 - Xiaohan Yang
 - Linxiang Lyu
-date: '2024-01-01'
+date: '2024-07-20'
 publishDate: '2024-08-04T18:55:32.953446Z'
 publication_types:
 - article-journal
@@ -27,9 +27,6 @@ tags:
 - seasonal ice
 
 featured: True
-links:
-- name: DOI
-  url: https://doi.org/10.1021/acs.est.4c05322
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
