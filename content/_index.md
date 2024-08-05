@@ -64,6 +64,7 @@ sections:
     design:
       view: citation
   - block: resume-awards
+    id: awards
     content:
       title: Awards
       username: admin
