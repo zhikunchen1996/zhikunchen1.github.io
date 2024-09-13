@@ -68,7 +68,6 @@ sections:
     content:
       title: Awards
       username: admin
-  sections:
   - block: collection
     content:
       title: Selected Projects
