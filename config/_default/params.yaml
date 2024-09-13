@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {2024} Zhikun Chen.'
+    notice: '© 2024 Zhikun Chen.'
     license:
       enable: true
       allow_derivatives: false

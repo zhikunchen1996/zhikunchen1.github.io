@@ -24,7 +24,7 @@ role: PhD Candidate, EIT
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Conordia University
+  - name: Conordia University, Montreal, Canada
     url: https://concordia.ca/
 
 # Social network links
