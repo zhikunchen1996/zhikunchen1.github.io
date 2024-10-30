@@ -42,7 +42,7 @@ profiles:
 
 interests:
   - Transport of microplastics in cold regions
-  - Remediation technologies for microplastics removal
+  - Remediation technologies for microplastics in water
   - Oil spill response
   - Waste management
 
@@ -52,7 +52,7 @@ education:
     date_start: 2020-09-01
     date_end: 2024-12-31
     summary: |
-      Thesis on tranpsport of microplastics in cold regions and remediation technologies. Supervised by Dr. Chunjiang An (https://anlab.ca/). Published 28 peer-reviewed articles with 12 as the first author in top journals such as Environmental Science & Technology, ACS ES&T Water, Chemical Engineering Journal, and Journal of Hazardous Materials (H-index: 14).
+      Thesis on tranpsport of microplastics in cold regions and remediation technologies. Supervised by Dr. Chunjiang An (https://anlab.ca/). Published 28 peer-reviewed articles with 12 as the first author in top journals such as Environmental Science & Technology, ACS ES&T Water, Chemical Engineering Journal, and Journal of Hazardous Materials (H-index: 15).
     #button:
       #text: 'Read Thesis'
       #url: 'https://example.com'
@@ -209,4 +209,4 @@ awards:
 
 ## About Me
 
-I am a PhD candidate in environmental engineering at the Department of Building, Civil and Environmental Engineering of Concordia University. My research interests include transport of microplastics in cold regions and seperation technologies, and oil spil response in coastal regions. I am currently looking for postdoctral position.
+I am a PhD candidate in environmental engineering at the Department of Building, Civil and Environmental Engineering of Concordia University. My research interests include transport of microplastics in cold regions and seperation technologies, waste management, and oil spil response in coastal regions. I am currently looking for postdoctral position.
