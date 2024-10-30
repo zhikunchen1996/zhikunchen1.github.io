@@ -36,11 +36,11 @@ sections:
       subtitle: ''
       text: |-
         My research interests centers on sustainable environmental management, including:
-        · Environmental fate of microplastics in cold regions
-        · Municipal and construction waste management
-        · Shorelien oil spill response
-        · Greenhouse gas emission and assessment
-        · Electrochemical treatement fo microplastics/nanoplastics in water
+        - Environmental fate of microplastics in cold regions
+        - Municipal and construction waste management
+        - Shorelien oil spill response
+        - Greenhouse gas emission and assessment
+        - Electrochemical treatement fo microplastics/nanoplastics in water
     design:
       columns: '1'
   - block: collection
