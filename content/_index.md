@@ -35,11 +35,12 @@ sections:
       title: 'My Research'
       subtitle: ''
       text: |-
-        My research interests include investigating the environmental fate of microplastics in cold regions. I use laboratory batch tests and field sampling to study the entrainment of microplastics in seasonal ice and the effects of freezing on microplastic behavior upon release.
-
-        I am currently developing engineering solutions to remove microplastics from water, focusing on low-energy and cost-effective methods for separation.
-
-        Please reach out to collaborate.
+        My research interests centers on sustainable environmental management, including:
+        · Environmental fate of microplastics in cold regions
+        · Municipal and construction waste management
+        · Shorelien oil spill response
+        · Greenhouse gas emission and assessment
+        · Electrochemical treatement fo microplastics/nanoplastics in water
     design:
       columns: '1'
   - block: collection
