@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Candidate, EIT
+role: Research Associate, PhD, EIT
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -209,4 +209,4 @@ awards:
 
 ## About Me
 
-I am a PhD candidate in environmental engineering at the Department of Building, Civil and Environmental Engineering of Concordia University. My research interests include transport of microplastics in cold regions and seperation technologies, waste management, and oil spil response in coastal regions. I am currently looking for postdoctral position.
+I am a research associate at the Department of Building, Civil and Environmental Engineering of Concordia University. My research interests include transport of microplastics in cold regions and seperation technologies, waste management, and oil spil response in coastal regions.
