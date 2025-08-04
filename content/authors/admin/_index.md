@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Research Associate, PhD, EIT
+role: Postdoctoral Fellow, PhD, EIT
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Conordia University, Montreal, Canada
-    url: https://concordia.ca/
+  - name: Queen's University, Kingston, Canada
+    url: https://www.queensu.ca/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -209,4 +209,4 @@ awards:
 
 ## About Me
 
-I am a research associate at the Department of Building, Civil and Environmental Engineering of Concordia University. My research interests include transport of microplastics in cold regions and seperation technologies, waste management, and oil spil response in coastal regions.
+I am a postdoctoral fellow at the Department of Chemical Engineering of Queen's University. My research interests include transport of microplastics in cold regions and seperation technologies, waste management, and oil spil response in coastal regions.
