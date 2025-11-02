@@ -143,6 +143,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: valedictorian for the Gina Cody School's Fall 2025 convocation
+    url: https://www.instagram.com/p/DQU6py8EzmU/
+    date: '2025-10-28'
+    awarder: Gina Cody School of Engineering and Computer Science
+    summary: |
+      
   - title: AquaHacking Great Lakes Challenges 2023-2024 Finalist – Team Maxinano
     url: https://aquaaction.org/aquahacking-great-lakes-2023-24
     date: '2024-03-01'
