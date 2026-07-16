@@ -1,0 +1,73 @@
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Fellow
+      institution: Queen’s University, Kingston, Canada
+      year: 2025–Present
+      description:
+        - Department of Chemical Engineering.
+        - Sponsored by the Queen’s Vice-Principal Research Postdoctoral Fund.
+    - title: Research Assistant
+      institution: Concordia University, Montréal, Canada
+      year: 2018–2024
+      description:
+        - Research on microplastic transport in cold regions, shoreline oil-spill response, and environmental assessment.
+    - title: Research Intern
+      institution: Mitacs Accelerate / City of Montreal West
+      year: 2021
+      description:
+        - Sustainable management of construction, renovation, and demolition waste.
+    - title: Research Assistant
+      institution: Xi’an Jiaotong-Liverpool University, Suzhou, China
+      year: 2017–2018
+      description:
+        - Construction-waste reduction, recycling, and prefabrication research.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Civil Engineering
+      institution: Concordia University, Montréal, Canada
+      year: 2020–2024
+      description:
+        - Concordia University Distinguished Doctoral Dissertation Prize in Engineering and Natural Sciences.
+        - Valedictorian, Gina Cody School of Engineering and Computer Science Fall 2025 Convocation.
+    - title: MASc in Civil Engineering
+      institution: Concordia University, Montréal, Canada
+      year: 2018–2020
+      description:
+        - NAGS Master’s Thesis Award.
+        - The F. A. Gerard Prize, awarded to the most deserving graduate in the master’s engineering programs.
+    - title: BEng in Civil Engineering
+      institution: University of Liverpool / Xi’an Jiaotong-Liverpool University
+      year: 2014–2018
+      description:
+        - First Class Honours.
+        - Architectural Engineering Project Prize, Xi’an Jiaotong-Liverpool University.
+
+- title: Selected Honors and Awards
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - Concordia University Distinguished Doctoral Dissertation Prize in Engineering and Natural Sciences (May 2026)
+    - year: 2025
+      items:
+        - Valedictorian, Gina Cody School of Engineering and Computer Science Fall Convocation
+        - Queen’s Vice-Principal Research Postdoctoral Fund
+    - year: 2024
+      items:
+        - AquaHacking Great Lakes Challenge Finalist, Team Maxinano
+    - year: 2023–2024
+      items:
+        - Relève Étoile Louis-Berlinguet Award, Fonds de recherche du Québec
+    - year: 2023
+      items:
+        - PEOPLE International Conference Best Presentation Award, second place
+    - year: 2022
+      items:
+        - Chinese Government Award for Outstanding Self-Financed Students Abroad
+        - NAGS Master’s Thesis Award
+    - year: 2020
+      items:
+        - The F. A. Gerard Prize, Concordia University

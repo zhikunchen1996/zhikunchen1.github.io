@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "teachings",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;
+
+// Zhikun Chen — restrained academic presentation
+body { letter-spacing: -0.005em; }
+.post-title, h1, h2 { letter-spacing: -0.025em; }
+.profile img { border-radius: 10px; box-shadow: 0 16px 40px rgba(15, 45, 68, 0.14); }
+.profile .more-info { color: var(--global-text-color-light); font-size: 0.92rem; }
+.post article > h2 { margin-top: 2.4rem; }
+.publications h2.year { color: var(--global-theme-color); font-weight: 700; }
+.navbar { backdrop-filter: blur(12px); border-bottom: 1px solid var(--global-divider-color); }
