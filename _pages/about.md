@@ -35,4 +35,4 @@ My goal is to connect fundamental environmental processes with practical enginee
 
 I have authored **35 peer-reviewed journal articles**, including **12 first-author articles**, in journals such as *Environmental Science & Technology*, *ACS ES&T Water*, *Chemical Engineering Journal*, and *Journal of Hazardous Materials*. As of July 2026, my work has received **1,399 Google Scholar citations** with an **h-index of 20**. My research has been recognized by the Fonds de recherche du Québec, the Northeastern Association of Graduate Schools, and the PEOPLE Network.
 
-[View publications]({{ '/publications/' | relative_url }})  ·  [Download CV]({{ '/assets/pdf/zhikun-chen-cv.pdf' | relative_url }})
+[View publications]({{ '/publications/' | relative_url }})
