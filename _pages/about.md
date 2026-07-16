@@ -31,8 +31,4 @@ My goal is to connect fundamental environmental processes with practical enginee
 - **Electrochemical water treatment** — separation and electrosorption approaches for micro- and nanoplastics.
 - **Sustainable environmental management** — oil-spill response, construction and demolition waste, and greenhouse-gas assessment.
 
-## Highlights
-
-I have authored **35 peer-reviewed journal articles**, including **12 first-author articles**, in journals such as *Environmental Science & Technology*, *ACS ES&T Water*, *Chemical Engineering Journal*, and *Journal of Hazardous Materials*. As of July 2026, my work has received **1,399 Google Scholar citations** with an **h-index of 20**. My research has been recognized by the Fonds de recherche du Québec, the Northeastern Association of Graduate Schools, and the PEOPLE Network.
-
 [View publications]({{ '/publications/' | relative_url }})
