@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Fellow in Environmental Engineering · Queen’s University
+subtitle: Postdoctoral Fellow · Queen’s University
 
 profile:
   align: right
