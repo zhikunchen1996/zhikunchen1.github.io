@@ -30,6 +30,8 @@ body { letter-spacing: -0.005em; }
 .post-title, h1, h2 { letter-spacing: -0.025em; }
 .profile img { border-radius: 10px; box-shadow: 0 16px 40px rgba(15, 45, 68, 0.14); }
 .profile .more-info { color: var(--global-text-color-light); font-size: 0.92rem; }
+.profile .more-info p { display: block; white-space: nowrap; }
+@media (min-width: 576px) { .profile { min-width: 19rem; } }
 .post article > h2 { margin-top: 2.4rem; }
 .publications h2.year { color: var(--global-theme-color); font-weight: 700; }
 .navbar { backdrop-filter: blur(12px); border-bottom: 1px solid var(--global-divider-color); }
