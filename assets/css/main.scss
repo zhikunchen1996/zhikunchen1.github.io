@@ -34,4 +34,10 @@ body { letter-spacing: -0.005em; }
 @media (min-width: 576px) { .profile { min-width: 19rem; } }
 .post article > h2 { margin-top: 2.4rem; }
 .publications h2.year { color: var(--global-theme-color); font-weight: 700; }
+.publications [href*="sci-hub" i],
+.publications [href*="scihub" i],
+.publications [class*="sci-hub" i],
+.publications [class*="scihub" i],
+.publications [id*="sci-hub" i],
+.publications [id*="scihub" i] { display: none !important; }
 .navbar { backdrop-filter: blur(12px); border-bottom: 1px solid var(--global-divider-color); }
