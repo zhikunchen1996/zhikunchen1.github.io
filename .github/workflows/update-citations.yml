@@ -2,100 +2,69 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+    # Monthly on day 1 at 00:17 UTC, off the busy hour boundary.
+    - cron: "17 0 1 * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-citations.yml
+      - bin/update_scholar_citations.py
+      - requirements.txt
+
+permissions:
+  contents: read
+
+concurrency:
+  group: citations-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update-citations:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      # See CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
-      #        with:
-      #          token: ${{ secrets.PAT }}
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+      - run: python -m pip install -r requirements.txt
+      - name: Verify real scholarly import
+        run: python -c 'from scholarly import scholarly; import bibtexparser.bibdatabase'
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
 
-      - name: Install dependencies
+  update-citations:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install -r requirements.txt
+      - name: Fetch citations (fail visibly and preserve old data on error)
+        run: timeout 180 python bin/update_scholar_citations.py
+      - name: Validate nonempty citation data
         run: |
-          echo "🔧 Installing dependencies..."
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Save current citations.yml hash
-        id: before
+          python - <<'PY'
+          from datetime import datetime
+          import yaml
+          with open('_data/citations.yml') as f:
+              data = yaml.safe_load(f)
+          assert data['papers'], 'Citation data must contain publications'
+          assert str(data['metadata']['last_updated']) == datetime.now().strftime('%Y-%m-%d')
+          print(f"Validated {len(data['papers'])} publications")
+          PY
+      - name: Commit refreshed data
         run: |
-          echo "📦 Checking existing citations.yml hash..."
-          if [ -f _data/citations.yml ]; then
-            sha_before=$(sha256sum _data/citations.yml | awk '{print $1}')
-            echo "sha_before=$sha_before" >> $GITHUB_OUTPUT
-            echo "📝 SHA before: $sha_before"
-          else
-            echo "sha_before=none" >> $GITHUB_OUTPUT
-            echo "📝 No existing citations.yml file found."
-          fi
-
-      - name: Run citation update script
-        id: run_citation_update
-        shell: bash
-        run: |
-          set +e
-          echo "🚀 Running citation update script (single attempt)..."
-          start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
-          status=$?
-          end_time=$(date)
-          if [ $status -eq 0 ]; then
-            echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
-            echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
-            echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
-          fi
-          set -e
-
-      - name: Save new citations.yml hash
-        id: after
-        run: |
-          echo "🔍 Checking updated citations.yml hash..."
-          if [ -f _data/citations.yml ]; then
-            sha_after=$(sha256sum _data/citations.yml | awk '{print $1}')
-            echo "sha_after=$sha_after" >> $GITHUB_OUTPUT
-            echo "📝 SHA after: $sha_after"
-          else
-            echo "sha_after=none" >> $GITHUB_OUTPUT
-            echo "📝 citations.yml was not created or is missing."
-          fi
-
-      - name: Report citations.yml change in summary
-        run: |
-          echo "📋 Comparing citation file hashes..."
-          if [ "${{ steps.before.outputs.sha_before }}" != "${{ steps.after.outputs.sha_after }}" ]; then
-            echo "✅ _data/citations.yml was updated."
-            echo "✅ _data/citations.yml was updated." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "ℹ️ _data/citations.yml was not changed."
-            echo "ℹ️ _data/citations.yml was not changed." >> $GITHUB_STEP_SUMMARY
-          fi
-
-      - name: Configure Git
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          echo "🔧 Git configured."
-
-      - name: Commit and push if changed
-        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
           git add _data/citations.yml
-          git diff --staged --quiet || (
-            echo "📤 Committing and pushing changes..."
+          if ! git diff --staged --quiet; then
             git commit -m "Update Google Scholar citations"
             git push
-          )
+          fi
