@@ -40,6 +40,13 @@ class CitationTests(unittest.TestCase):
     def seed(self, date='2000-01-01', papers=None):
         self.output.write_text(yaml.safe_dump({'metadata': {'last_updated': date}, 'papers': papers or {}}))
 
+    def test_monthly_schedule(self):
+        workflow = SCRIPT.parents[1] / '.github/workflows/update-citations.yml'
+        config = yaml.safe_load(workflow.read_text())
+        # PyYAML uses YAML 1.1, where the unquoted Actions key 'on' is True.
+        events = config.get('on', config.get(True))
+        self.assertEqual(events['schedule'], [{'cron': '17 0 1 * *'}])
+
     def test_missing_output_created(self):
         self.updater.get_scholar_citations()
         data = yaml.safe_load(self.output.read_text())
