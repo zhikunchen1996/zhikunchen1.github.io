@@ -2,6 +2,7 @@
 
 import os
 import sys
+import tempfile
 import yaml
 from datetime import datetime
 from scholarly import scholarly
@@ -40,6 +41,7 @@ def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
+    existing_data = None
 
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
@@ -52,7 +54,7 @@ def get_scholar_citations() -> None:
                 and "last_updated" in existing_data["metadata"]
             ):
                 print(f"Last updated on: {existing_data['metadata']['last_updated']}")
-                if existing_data["metadata"]["last_updated"] == today:
+                if existing_data["metadata"]["last_updated"] == today and existing_data.get("papers"):
                     print("Citations data is already up-to-date. Skipping fetch.")
                     return
         except Exception as e:
@@ -79,7 +81,7 @@ def get_scholar_citations() -> None:
         )
         sys.exit(1)
 
-    if "publications" not in author_data:
+    if not author_data.get("publications"):
         print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
         sys.exit(1)
 
@@ -108,16 +110,20 @@ def get_scholar_citations() -> None:
                 f"Error processing publication '{pub.get('bib', {}).get('title', 'Unknown')}': {e}. This publication will be skipped."
             )
 
-    # Compare new data with existing data
-    if existing_data and existing_data.get("papers") == citation_data["papers"]:
-        print("No changes in citation data. Skipping file update.")
-        return
+    if not citation_data["papers"]:
+        print("No usable publications returned; preserving the existing citation file.")
+        sys.exit(1)
 
     try:
-        with open(OUTPUT_FILE, "w") as f:
+        # Replace only after a complete successful fetch and serialization.
+        with tempfile.NamedTemporaryFile(mode="w", dir=os.path.dirname(OUTPUT_FILE) or ".", delete=False) as f:
+            temp_path = f.name
             yaml.dump(citation_data, f, width=1000, sort_keys=True)
+        os.replace(temp_path, OUTPUT_FILE)
         print(f"Citation data saved to {OUTPUT_FILE}")
     except Exception as e:
+        if "temp_path" in locals() and os.path.exists(temp_path):
+            os.unlink(temp_path)
         print(
             f"Error writing citation data to {OUTPUT_FILE}: {e}. Please check file permissions and disk space."
         )
