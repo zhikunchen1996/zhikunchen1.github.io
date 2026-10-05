@@ -2,8 +2,8 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    # Off the busy hour boundary; changing cron also reactivates an inactive schedule.
-    - cron: "17 0 * * 1,3,5"
+    # Monthly on day 1 at 00:17 UTC, off the busy hour boundary.
+    - cron: "17 0 1 * *"
   workflow_dispatch:
   push:
     branches: [main]
